@@ -4,7 +4,7 @@ clear;
 addpath('SRAD');
 addpath('OBNLMpackage');
 
-imagePath = "../../data/invivo.png";
+imagePath = "../../data/invivo/invivo_1.png";
 outputPath = "../../outputImages/otherMethods_invivo";
 % for estimating the noise level in SRAD
 srad.rect = [278, 171, 109, 129];

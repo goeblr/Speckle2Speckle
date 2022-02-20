@@ -4,7 +4,7 @@ clear;
 addpath('SRAD');
 addpath('OBNLMpackage');
 
-imagePath = "../../data/phantom.png";
+imagePath = "../../data/phantom/phantom_1.png";
 outputPath = "../../outputImages/otherMethods_experimental";
 % for estimating the noise level in SRAD
 srad.rect = [349, 348, 141, 142];

@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+matplotlib
+Pillow
+kornia
+natsort
+psutil
+opencv-python
+SimpleITK
