@@ -3,6 +3,11 @@
 This implementation of Speckle2Speckle is based on code of Joey Litalien
 https://github.com/joeylitalien/noise2noise-pytorch
 
+## unpack zips
+data/test-set_simulated.zip
+outputImages/otherMedhods_simulated.zip
+
+
 ## apply network to test-set, phantom and invivo
 runInference.sh
 

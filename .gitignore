@@ -2,11 +2,9 @@ venv/
 
 .idea/
 
-data/test-set_simulated/
+data/test-set_simulated/*.png
 
 outputImages/otherMethods_simulated/*.png
-outputImages/otherMethods_invivo/*.png
-outputImages/otherMethods_experimental/*.png
 outputImages/simulated/*.png
 outputImages/simulated/denoised/*.png
 outputImages/invivo/*.png

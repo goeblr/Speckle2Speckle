@@ -196,7 +196,6 @@ if __name__ == "__main__":
         statistics_frame = pd.DataFrame(statistics)
         statistics_frame.to_csv('../simulated_objects_statistics.csv', index=False)
         statistics_frame.to_latex('../simulated_objects_statistics.tex', index=False, float_format="%.2e")
-        statistics_frame.style.to_latex()
 
         plt.figure()
         plt.boxplot([mses_table[x] for x in mses_table.keys() if x != 'image_num'],
