@@ -259,6 +259,7 @@ if __name__ == "__main__":
             ax.set_xticks(np.arange(1, len(labels) + 1))
             ax.set_xticklabels(labels)
             ax.set_xlim(0.25, len(labels) + 0.75)
+            ax.set_ylim(0.0, 0.9)
             ax.yaxis.set_major_locator(MultipleLocator(0.1))
 
             fig.set_size_inches(4.6, 2)
@@ -331,6 +332,7 @@ if __name__ == "__main__":
             ax.set_xticks(np.arange(1, len(labels) + 1))
             ax.set_xticklabels(labels)
             ax.set_xlim(0.25, len(labels) + 0.75)
+            ax.set_ylim(0.0, 0.9)
             ax.yaxis.set_major_locator(MultipleLocator(0.1))
 
             fig.set_size_inches(4.6, 2)
