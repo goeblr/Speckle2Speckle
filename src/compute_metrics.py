@@ -354,3 +354,17 @@ if __name__ == "__main__":
         stds_frame = pd.DataFrame(stds)
         stds_frame.to_csv('../invivo_statistics.csv', index=False)
         stds_frame.to_latex('../invivo_statistics.tex', index=False, float_format="%.2e")
+
+    # create colorbar pdf
+    a = np.zeros([2, 2])
+    a[0, 0] = -70
+    fig = plt.figure()
+    im = plt.imshow(a, cmap='gray')
+    bar = plt.colorbar()
+    bar.ax.set_title('[dB]', fontsize=11)
+    im.remove()
+    ax = fig.gca()
+    ax.remove()
+    fig.set_size_inches(4.6, 3)
+    fig.tight_layout()
+    plt.savefig('../plots/colorbar.pdf')
